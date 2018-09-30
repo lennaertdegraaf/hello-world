@@ -1,5 +1,5 @@
-# hello-world
-setting up the git hub.. oh Yeah!
+# The Raspberry Pi Zero.
+It easy to loose your head, messing around in the commandline.
 
 ## Getting Started
 These instructions will help you set up your raspberry pi zero.
