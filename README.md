@@ -10,7 +10,7 @@ These instructions will help you set up your raspberry pi zero.
 * Usb battery
 * MacBook
 
-### Installing raspberry pi zero.
+### Installing the raspberry pi zero.
 - [x] Use [etcher](https://etcher.io) to write the sd card with [raspian](https://www.raspberrypi.org/downloads/raspbian/), it's easier.
 - [x] Open the cli on your mac: cmd space, search terminal.app
 - [x] Create ssh file: touch /Volumes/boot/ssh
@@ -26,22 +26,22 @@ network={
         psk="password for the wifi"
 }
 ```
-- [x] power up: it's alive, Alive!
-- [x] in the cli type: ssh pi@raspberrypi.local
+- [x] Power up: it's alive, Alive!
+- [x] In the cli type: ssh pi@raspberrypi.local (default username=pi default hostname=raspberrypi.local)
 ```
 troubleshooting
 ssh-keygen -R raspberrypi.local
 rm -f ~/.ssh/known_hosts
 ```
-- [x] expand file system, **change host name** and **password**: sudo raspi-config
-- [x] update your system and reboot
+- [x] Expand file system, change host name and **password**, in the cli type: sudo raspi-config
+- [x] Update your system and reboot
 ```
 sudo apt-get update -y
 sudo apt-get upgrade -y
 reboot
 ```
-- [x] Now reward yourself with some super bright leds (https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-blinkt)
-- [x] run the lights on boot, in the cli type: crontab -e
+- [x] Now reward yourself with some [super bright led lights] (https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-blinkt)
+- [x] Run the led lights on boot, in the cli type: crontab -e
 ```
 @reboot python /home/pi/Pimoroni/blinkt/examples/lennaert_startup.py &
 ```
