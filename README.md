@@ -1,5 +1,5 @@
 # The Raspberry Pi Zero wireless setup
-Bought my first raspberry zero this friday, and struggeld with linux commands like (arp -a) just to find out what the wireless ip adres was ;-) Eventually it all came together. Enjoy!
+Bought my first raspberry zero this friday, and struggeld to find out what the wireless ip adres was. Eventually it all came together the next day ;-) and we learned a fair bit about linux, networking and now git. Enjoy!
 
 ## Getting Started
 These instructions will help you set up your raspberry pi zero w.
@@ -27,7 +27,7 @@ network={
 }
 ```
 - [x] Power up: it's alive, Alive!
-- [x] In the cli type: ssh pi@raspberrypi.local (default username=pi default hostname=raspberrypi.local)
+- [x] In the cli type: ssh pi@raspberrypi.local (default username: "pi" default hostname: "raspberrypi.local")
 ```
 troubleshooting
 ssh-keygen -R raspberrypi.local
