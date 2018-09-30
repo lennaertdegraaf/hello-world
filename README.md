@@ -5,8 +5,8 @@ setting up the git hub.. oh Yeah!
 These instructions will help you set up your set up raspberry pi zero.
 
 ### Prerequisites
-* Raspberry pi zero WH (https://www.kiwi-electronics.nl/raspberry-pi-zero-wh-header-voorgesoldeerd?search=raspberry%20pi%20zero)
-* Blikt! leds (https://www.kiwi-electronics.nl/blinkt-voor-raspberry-pi?search=blinkt!)
+* [Raspberry pi zero WH](https://www.kiwi-electronics.nl/raspberry-pi-zero-wh-header-voorgesoldeerd?search=raspberry%20pi%20zero)
+* [Blikt! leds](https://www.kiwi-electronics.nl/blinkt-voor-raspberry-pi?search=blinkt!)
 * Usb battery
 * MacBook
 
@@ -41,7 +41,7 @@ sudo apt-get upgrade -y
 reboot
 ```
 - [x] Now reward yourself with some super bright leds (https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-blinkt)
-- [x] run the led sript on boot, in cli type: crontab -e
+- [x] run the lights on boot, in cli type: crontab -e
 ```
 @reboot python /home/pi/Pimoroni/blinkt/examples/lennaert_startup.py &
 ```
