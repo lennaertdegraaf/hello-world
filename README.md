@@ -27,13 +27,13 @@ network={
 }
 ```
 - [x] power up: it's alive, Alive!
-- [x] cli: ssh pi@raspberrypi.local
+- [x] in the cli type: ssh pi@raspberrypi.local
 ```
 troubleshooting
 ssh-keygen -R raspberrypi.local
 rm -f ~/.ssh/known_hosts
 ```
-- [x] expand file system, change host name and password: sudo raspi-config
+- [x] expand file system, **change host name** and **password**: sudo raspi-config
 - [x] update your system and reboot
 ```
 sudo apt-get update -y
@@ -41,7 +41,7 @@ sudo apt-get upgrade -y
 reboot
 ```
 - [x] Now reward yourself with some super bright leds (https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-blinkt)
-- [x] run the lights on boot, in cli type: crontab -e
+- [x] run the lights on boot, in the cli type: crontab -e
 ```
 @reboot python /home/pi/Pimoroni/blinkt/examples/lennaert_startup.py &
 ```
