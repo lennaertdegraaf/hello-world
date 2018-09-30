@@ -12,7 +12,7 @@ These instructions will help you set up your raspberry pi zero.
 
 ### Installing raspberry pi zero.
 - [x] Use [etcher](https://etcher.io) to write the sd card with [raspian](https://www.raspberrypi.org/downloads/raspbian/), it's easier.
-- [x] Open a terminal on your mac: cmd space, search terminal.app
+- [x] Open the cli on your mac: cmd space, search terminal.app
 - [x] Create ssh file: touch /Volumes/boot/ssh
 - [x] Add network info: touch /Volumes/boot/wpa_supplicant.conf
 - [x] Update the file: nano /Volumes/boot/wpa_supplicant.conf
@@ -27,7 +27,7 @@ network={
 }
 ```
 - [x] power up: it's alive, Alive!
-- [x] ssh: ssh pi@raspberrypi.local
+- [x] cli: ssh pi@raspberrypi.local
 ```
 troubleshooting
 ssh-keygen -R raspberrypi.local
