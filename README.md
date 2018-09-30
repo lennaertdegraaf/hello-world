@@ -1,4 +1,5 @@
 # The Raspberry Pi Zero wireless setup
+Bought my first raspberry zero this friday, and struggeld with linux commands like (arp -a) just to find out what the wireless ip adres was ;-) Eventually it all came together. Enjoy!
 
 ## Getting Started
 These instructions will help you set up your raspberry pi zero w.
@@ -6,8 +7,8 @@ These instructions will help you set up your raspberry pi zero w.
 ### Prerequisites
 * [Raspberry pi zero WH](https://www.kiwi-electronics.nl/raspberry-pi-zero-wh-header-voorgesoldeerd?search=raspberry%20pi%20zero)
 * [Blikt! leds](https://www.kiwi-electronics.nl/blinkt-voor-raspberry-pi?search=blinkt!)
-* Usb battery
 * MacBook
+* Usb battery
 
 ### Installing the raspberry pi zero.
 - [x] Use [etcher](https://etcher.io) to write the sd card with [raspian](https://www.raspberrypi.org/downloads/raspbian/), it's easier.
