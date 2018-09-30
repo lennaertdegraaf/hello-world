@@ -1,4 +1,4 @@
-Alt-H1 The Raspberry Pi Zero wireless setup
+# The Raspberry Pi Zero wireless setup
 
 ## Getting Started
 These instructions will help you set up your raspberry pi zero w.
