@@ -1,8 +1,7 @@
-# The Raspberry Pi Zero.
-It easy to loose your head, messing around in the commandline.
+Alt-H1 The Raspberry Pi Zero wireless setup
 
 ## Getting Started
-These instructions will help you set up your raspberry pi zero.
+These instructions will help you set up your raspberry pi zero w.
 
 ### Prerequisites
 * [Raspberry pi zero WH](https://www.kiwi-electronics.nl/raspberry-pi-zero-wh-header-voorgesoldeerd?search=raspberry%20pi%20zero)
