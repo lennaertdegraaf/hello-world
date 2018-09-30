@@ -2,7 +2,7 @@
 setting up the git hub.. oh Yeah!
 
 ## Getting Started
-These instructions will help you set up your set up raspberry pi zero.
+These instructions will help you set up your raspberry pi zero.
 
 ### Prerequisites
 * [Raspberry pi zero WH](https://www.kiwi-electronics.nl/raspberry-pi-zero-wh-header-voorgesoldeerd?search=raspberry%20pi%20zero)
