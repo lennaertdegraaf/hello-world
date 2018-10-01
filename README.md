@@ -45,3 +45,4 @@ reboot
 ```
 @reboot python /home/pi/Pimoroni/blinkt/examples/lennaert_startup.py &
 ```
+![alt text](https://www.kiwi-electronics.nl/image/cache/data/products/raspberry-pi/boards/b-4-1000x667.jpg)
