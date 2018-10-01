@@ -45,3 +45,4 @@ reboot
 ```
 @reboot python /home/pi/Pimoroni/blinkt/examples/lennaert_startup.py &
 ```
+![](IMG_1934.mov)
