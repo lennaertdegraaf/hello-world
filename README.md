@@ -1,5 +1,5 @@
 # The Raspberry Pi Zero wireless setup
-Bought my first raspberry zero this friday, and struggeld to find out what the wireless ip adres was. Eventually it all came together the next day ;-) and we learned a fair bit about linux, networking and now git. Enjoy!
+Bought my first raspberry zero this friday, and struggeled to find the ip address. Eventually it all came together the next day ;-) and we learned a fair bit about linux, networking and git. Enjoy!
 
 ## Getting Started
 These instructions will help you set up your raspberry pi zero w.
